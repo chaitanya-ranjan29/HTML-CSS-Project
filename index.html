@@ -14,22 +14,80 @@
 
 <body>
     <!-- hero section -->
-    <section class="hero-section">
+    <!-- not using a section tag because h1 is misbehaving inside it -->
+    <div class="hero-section">
+        <img class="hero-image"
+            src="https://images.unsplash.com/photo-1590212151175-e58edd96185b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+            alt="Hero Section Image">
         <div class="hero-text">
-            <div class="text-divs">
-                <h3><span class="hi">Hi</span>, I am Jon Doe</h3>
+            <div class="hero-intro">
+                <h1>Hi, </h1>
+                <h3>I am Jon Doe</h3>
             </div>
-            <div class="text-divs">
-                <h2>FULL STACK DEVELOPER</h2>
-            </div>
+            <h1>Full Stack Developer</h1>
         </div>
-        <img class="hero-image" src="./images/wai-yan-moe-cWbSpwvLlaM-unsplash.jpg" alt="Hero Section Image">
-    </section>
+    </div>
 
     <!-- Black box section -->
-    <section class="bbox-section">
-        <h3 class="bbox-text">Work, I can do for <span class="bbox-you">YOU</span></h3>
-    </section>
+    <div class="bbox-section">
+        <h3>Work I Can Do For <span>YOU</span></h3>
+    </div>
+
+    <!-- card container section -->
+
+    <div class="card-section">
+        <div class="card">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="app-development">
+            </div>
+            <div class="card-content">
+                <div class="card-header"><h3>Web Development</h3></div>
+                <div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, earum?</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="app-development">
+            </div>
+            <div class="card-content">
+                <div class="card-header"><h3>App Development</h3></div>
+                <div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, earum?</p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="ui-ux-design">
+            </div>
+            <div class="card-content">
+                <div class="card-header"><h3>UI/UX Design</h3></div>
+                <div class="card-body"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, ipsum.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bottom section -->
+
+    <div class="bottom-section">
+        <div class="contact-me">
+            <div>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="bottom-content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, quae? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="about-me">
+            <div>
+                <h2>About Me</h2>
+            </div>
+            <div class="bottom-content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, quae? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
